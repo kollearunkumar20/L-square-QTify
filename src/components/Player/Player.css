@@ -1,0 +1,76 @@
+.player {
+    width: 100%;
+    background-color: #121212;
+    border-top: 2px solid #34c94b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    height: 90px;
+    z-index: 1200;
+  }  
+  
+  .player-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .album-cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .song-name {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .album-name {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+  }
+  
+  .player-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .play-icon {
+    font-size: 3rem;
+    color: #34c94b;
+    cursor: pointer;
+  }
+  
+  .player-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 30%;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    width: 30%;
+    height: 100%;
+    background-color: #34c94b;
+  }
+  
